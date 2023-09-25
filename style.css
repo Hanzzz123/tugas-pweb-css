@@ -1,0 +1,62 @@
+.background{
+    background-color: darkslategray;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.box{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: slategray;
+    display: flex;
+}
+
+.text-wrapper{
+    display: flex;
+    align-self: baseline;
+    width: 225px;
+    height: 300px;
+}
+img{
+    width: 250px ;
+    height: 300px;
+    margin-left: 20px;
+    position: absolute;
+    display: block;
+
+}
+
+
+.text h1{
+    margin-right: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.text h2{
+    margin-right: 15px;
+    font-size: 13px;
+    color: white;
+
+}
+.text b{
+    width: 250px;
+    height: 300px;
+    margin-right: 100px;
+    font-size: 12px;
+}
+
+.button{
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
